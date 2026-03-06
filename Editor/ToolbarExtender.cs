@@ -23,9 +23,7 @@ namespace UnityEssentials
         {
             GUILayout.BeginHorizontal();
             foreach (var handler in LeftToolbarGUI)
-            {
                 handler?.Invoke();
-            }
 
             GUILayout.EndHorizontal();
         }
@@ -34,9 +32,7 @@ namespace UnityEssentials
         {
             GUILayout.BeginHorizontal();
             foreach (var handler in RightToolbarGUI)
-            {
                 handler?.Invoke();
-            }
 
             GUILayout.EndHorizontal();
         }
