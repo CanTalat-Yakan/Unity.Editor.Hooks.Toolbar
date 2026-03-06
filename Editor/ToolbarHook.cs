@@ -7,12 +7,12 @@ using UnityEngine;
 namespace UnityEssentials
 {
     [InitializeOnLoad]
-    public static class ToolbarExtender
+    public static class ToolbarHook
     {
         public static readonly List<Action> LeftToolbarGUI = new List<Action>();
         public static readonly List<Action> RightToolbarGUI = new List<Action>();
-
-        static ToolbarExtender()
+    
+        static ToolbarHook()
         {
             ToolbarCallback.OnToolbarGUI = null;
             ToolbarCallback.OnToolbarGUILeft = GUILeft;
