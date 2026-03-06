@@ -1,0 +1,14 @@
+{
+    "name": "UnityEssentials.Editor.Hooks.Toolbar",
+    "rootNamespace": "UnityEssentials",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
